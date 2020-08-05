@@ -11,12 +11,4 @@
 |
 */
 
-Route::get('/', 'HomeController@index');
-
-Route::get('php', function () {
-    return view('php');
-});
-
-Route::get('js', function () {
-    return view('js');
-});
+Route::get('/', 'ReceipeController@index');
